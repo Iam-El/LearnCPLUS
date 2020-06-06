@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65DFFB77248B27DD00696E46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65DFFB76248B27DD00696E46 /* main.cpp */; };
-		65DFFB82248C0FA100696E46 /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65DFFB80248C0FA100696E46 /* log.cpp */; };
+		65DFFB90248C15AA00696E46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65DFFB8F248C15AA00696E46 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		65DFFB71248B27DD00696E46 /* CopyFiles */ = {
+		65DFFB8A248C15AA00696E46 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		65DFFB73248B27DD00696E46 /* How_C++_Works */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "How_C++_Works"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65DFFB76248B27DD00696E46 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		65DFFB80248C0FA100696E46 /* log.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
-		65DFFB81248C0FA100696E46 /* log.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = log.hpp; sourceTree = "<group>"; };
+		65DFFB8C248C15AA00696E46 /* C++ Linker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Linker"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DFFB8F248C15AA00696E46 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65DFFB70248B27DD00696E46 /* Frameworks */ = {
+		65DFFB89248C15AA00696E46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65DFFB6A248B27DD00696E46 = {
+		65DFFB83248C15AA00696E46 = {
 			isa = PBXGroup;
 			children = (
-				65DFFB75248B27DD00696E46 /* How_C++_Works */,
-				65DFFB74248B27DD00696E46 /* Products */,
+				65DFFB8E248C15AA00696E46 /* C++ Linker */,
+				65DFFB8D248C15AA00696E46 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		65DFFB74248B27DD00696E46 /* Products */ = {
+		65DFFB8D248C15AA00696E46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65DFFB73248B27DD00696E46 /* How_C++_Works */,
+				65DFFB8C248C15AA00696E46 /* C++ Linker */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65DFFB75248B27DD00696E46 /* How_C++_Works */ = {
+		65DFFB8E248C15AA00696E46 /* C++ Linker */ = {
 			isa = PBXGroup;
 			children = (
-				65DFFB76248B27DD00696E46 /* main.cpp */,
-				65DFFB80248C0FA100696E46 /* log.cpp */,
-				65DFFB81248C0FA100696E46 /* log.hpp */,
+				65DFFB8F248C15AA00696E46 /* main.cpp */,
 			);
-			path = "How_C++_Works";
+			path = "C++ Linker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65DFFB72248B27DD00696E46 /* How_C++_Works */ = {
+		65DFFB8B248C15AA00696E46 /* C++ Linker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65DFFB7A248B27DD00696E46 /* Build configuration list for PBXNativeTarget "How_C++_Works" */;
+			buildConfigurationList = 65DFFB93248C15AA00696E46 /* Build configuration list for PBXNativeTarget "C++ Linker" */;
 			buildPhases = (
-				65DFFB6F248B27DD00696E46 /* Sources */,
-				65DFFB70248B27DD00696E46 /* Frameworks */,
-				65DFFB71248B27DD00696E46 /* CopyFiles */,
+				65DFFB88248C15AA00696E46 /* Sources */,
+				65DFFB89248C15AA00696E46 /* Frameworks */,
+				65DFFB8A248C15AA00696E46 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "How_C++_Works";
-			productName = "How_C++_Works";
-			productReference = 65DFFB73248B27DD00696E46 /* How_C++_Works */;
+			name = "C++ Linker";
+			productName = "C++ Linker";
+			productReference = 65DFFB8C248C15AA00696E46 /* C++ Linker */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		65DFFB6B248B27DD00696E46 /* Project object */ = {
+		65DFFB84248C15AA00696E46 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = Iam_El;
 				TargetAttributes = {
-					65DFFB72248B27DD00696E46 = {
+					65DFFB8B248C15AA00696E46 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 65DFFB6E248B27DD00696E46 /* Build configuration list for PBXProject "How_C++_Works" */;
+			buildConfigurationList = 65DFFB87248C15AA00696E46 /* Build configuration list for PBXProject "C++ Linker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 65DFFB6A248B27DD00696E46;
-			productRefGroup = 65DFFB74248B27DD00696E46 /* Products */;
+			mainGroup = 65DFFB83248C15AA00696E46;
+			productRefGroup = 65DFFB8D248C15AA00696E46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65DFFB72248B27DD00696E46 /* How_C++_Works */,
+				65DFFB8B248C15AA00696E46 /* C++ Linker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65DFFB6F248B27DD00696E46 /* Sources */ = {
+		65DFFB88248C15AA00696E46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DFFB82248C0FA100696E46 /* log.cpp in Sources */,
-				65DFFB77248B27DD00696E46 /* main.cpp in Sources */,
+				65DFFB90248C15AA00696E46 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		65DFFB78248B27DD00696E46 /* Debug */ = {
+		65DFFB91248C15AA00696E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		65DFFB79248B27DD00696E46 /* Release */ = {
+		65DFFB92248C15AA00696E46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +235,7 @@
 			};
 			name = Release;
 		};
-		65DFFB7B248B27DD00696E46 /* Debug */ = {
+		65DFFB94248C15AA00696E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		65DFFB7C248B27DD00696E46 /* Release */ = {
+		65DFFB95248C15AA00696E46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65DFFB6E248B27DD00696E46 /* Build configuration list for PBXProject "How_C++_Works" */ = {
+		65DFFB87248C15AA00696E46 /* Build configuration list for PBXProject "C++ Linker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65DFFB78248B27DD00696E46 /* Debug */,
-				65DFFB79248B27DD00696E46 /* Release */,
+				65DFFB91248C15AA00696E46 /* Debug */,
+				65DFFB92248C15AA00696E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65DFFB7A248B27DD00696E46 /* Build configuration list for PBXNativeTarget "How_C++_Works" */ = {
+		65DFFB93248C15AA00696E46 /* Build configuration list for PBXNativeTarget "C++ Linker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65DFFB7B248B27DD00696E46 /* Debug */,
-				65DFFB7C248B27DD00696E46 /* Release */,
+				65DFFB94248C15AA00696E46 /* Debug */,
+				65DFFB95248C15AA00696E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 65DFFB6B248B27DD00696E46 /* Project object */;
+	rootObject = 65DFFB84248C15AA00696E46 /* Project object */;
 }

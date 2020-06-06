@@ -10,9 +10,10 @@
 
 // create a function here to print the message
 
-void Log(const char* message){
-    std::cout<<message<<'\n';
-}
+//void Log(const char* message){
+//    std::cout<<message<<'\n';
+//}
+void Log(const char* message);
 
 int main() {
     // insert code here...
@@ -24,6 +25,6 @@ int main() {
 
 
 // What if Log function was in different file . How would you make it run here
-// if you do not have the function definition and you try to call the function it throws an error 
+// if you do not have the function definition and you try to call the function it throws an error
 // try commenting out function definition
 //
