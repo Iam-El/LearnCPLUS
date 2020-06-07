@@ -6,4 +6,9 @@
 //  Copyright © 2020 Iam_El. All rights reserved.
 //
 
-#include "multiply.hpp"
+//#include "multiply.hpp"
+//
+//int multiply(int a,int b){ // function parameters
+//    
+//    return a*b;
+//}
