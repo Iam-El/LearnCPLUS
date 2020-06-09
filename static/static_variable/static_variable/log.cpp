@@ -7,3 +7,9 @@
 //
 
 #include "log.hpp"
+#include <iostream>
+int var1=10; // create a gobal variable
+
+static void testFuction(){
+    std::cout<<"elsy";
+}
